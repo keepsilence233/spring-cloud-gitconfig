@@ -1,3 +1,9 @@
 server:
-  port: 7020
-foo: git-config-dev 1.0
+  port: 8070
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127..0.0.1:8761/eureka/
+spring:
+  application:
+    name: git-config-client
