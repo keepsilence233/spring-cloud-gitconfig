@@ -1,0 +1,3 @@
+server:
+  port: 7030
+foo: git-config-test 1.0
